@@ -1,5 +1,5 @@
 name: CI
-run-name: '部署Commit: ${{ github.actor }}  🚀'
+run-name: '${{ github.actor }}: 部署Commit  🚀'
 on:
   push:
     branches:

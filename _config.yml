@@ -105,3 +105,9 @@ deploy:
   type: git
   repo: git@github.com:EduarteXD/eduartexd.github.io.git
   branch: main
+
+archive_generator:
+  per_page: 0  
+  yearly: false
+  monthly: true
+  daily: false

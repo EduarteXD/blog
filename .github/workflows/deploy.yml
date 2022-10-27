@@ -22,12 +22,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Checkout theme repo
-        uses: actions/checkout@v3
-        with:
-          repository: Ben02/hexo-theme-Anatole
-          ref: master
-          path: themes/hexo-theme-Anatole
+      #- name: Checkout theme repo
+      #  uses: actions/checkout@v3
+      #  with:
+      #    repository: Ben02/hexo-theme-Anatole
+      #    ref: master
+      #    path: themes/hexo-theme-Anatole
 
       - name: Checkout deploy repo
         uses: actions/checkout@v3
@@ -47,7 +47,6 @@ jobs:
         run: |
           sudo timedatectl set-timezone "Asia/Shanghai"
           mkdir -p ~/.ssh/
-          echo "$HEXO_DEPLOY_PRI"
           echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts

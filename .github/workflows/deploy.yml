@@ -1,5 +1,5 @@
 name: CI
-run-name: '${{ github.actor }}: 部署Commit  🚀'
+run-name: '🚀 部署 ${{ github.actor }} 提交的 Commit '
 on:
   push:
     branches:
@@ -11,7 +11,7 @@ env:
 
 jobs:
   build:
-    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    name: ℹ️ 在 Node.js ${{ matrix.node_version }} 和 ${{ matrix.os }} 上进行构建
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -19,29 +19,29 @@ jobs:
         node_version: [16.x]
 
     steps:
-      - name: Checkout
+      - name: 📝 设定分支
         uses: actions/checkout@v3
 
-      - name: Checkout theme repo
+      - name: 📝 设定主题的分支
         uses: actions/checkout@v3
         with:
           repository: Ben02/hexo-theme-Anatole
           ref: master
           path: themes/hexo-theme-Anatole
 
-      - name: Checkout deploy repo
-        uses: actions/checkout@v3
-        with:
-          repository: EduarteXD/eduartexd.github.io
-          ref: main
-          path: .deploy_git
+      #- name: 设定部署的分支
+      #  uses: actions/checkout@v3
+      #  with:
+      #    repository: EduarteXD/eduartexd.github.io
+      #    ref: main
+      #    path: .deploy_git
 
-      - name: Use Node.js ${{ matrix.node_version }}
+      - name: ℹ️ 使用 Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node_version }}
 
-      - name: Configuration environment
+      - name: ⚙️ 初始化构建环境
         env:
           HEXO_DEPLOY_PRI: ${{ secrets.HEXO }}
         run: |

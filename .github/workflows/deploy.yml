@@ -29,12 +29,12 @@ jobs:
           ref: master
           path: themes/hexo-theme-Anatole
 
-      - name: Checkout deploy repo
-        uses: actions/checkout@v3
-        with:
-          repository: EduarteXD/eduartexd.github.io
-          ref: main
-          path: .deploy_git
+      #- name: Checkout deploy repo
+      #  uses: actions/checkout@v3
+      #  with:
+      #    repository: EduarteXD/eduartexd.github.io
+      #    ref: main
+      #    path: .deploy_git
 
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v3

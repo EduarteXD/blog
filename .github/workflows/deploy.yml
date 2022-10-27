@@ -53,9 +53,9 @@ jobs:
           git config --global user.name $GIT_USER
           git config --global user.email $GIT_EMAIL
           cp _config.theme.yml themes/hexo-theme-Anatole/_config.yml
-      - name: Install dependencies
+      - name: ⚙️ 安装依赖
         run: |
           npm install
-      - name: Deploy hexo
+      - name: ✅ 部署
         run: |
           npm run deploy

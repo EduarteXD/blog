@@ -22,12 +22,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      #- name: Checkout theme repo
-      #  uses: actions/checkout@v3
-      #  with:
-      #    repository: Ben02/hexo-theme-Anatole
-      #    ref: master
-      #    path: themes/hexo-theme-Anatole
+      - name: Checkout theme repo
+        uses: actions/checkout@v3
+        with:
+          repository: Ben02/hexo-theme-Anatole
+          ref: master
+          path: themes/hexo-theme-Anatole
 
       - name: Checkout deploy repo
         uses: actions/checkout@v3

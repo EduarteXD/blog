@@ -8,10 +8,6 @@ on:
 env:
   GIT_USER: EduarteXD
   GIT_EMAIL: eduartecliff@gmail.com
-  THEME_REPO: Ben02/hexo-theme-Anatole
-  THEME_BRANCH: master
-  DEPLOY_REPO: EduarteXD/eduartexd.github.io
-  DEPLOY_BRANCH: main
 
 jobs:
   build:
@@ -29,16 +25,9 @@ jobs:
       - name: Checkout theme repo
         uses: actions/checkout@v3
         with:
-          repository: ${{ env.THEME_REPO }}
-          ref: ${{ env.THEME_BRANCH }}
-          path: themes/concise
-
-      - name: Checkout deploy repo
-        uses: actions/checkout@v3
-        with:
-          repository: ${{ env.DEPLOY_REPO }}
-          ref: ${{ env.DEPLOY_BRANCH }}
-          path: .deploy_git
+          repository: Ben02/hexo-theme-Anatole
+          ref: master
+          path: themes/hexo-theme-Anatole
 
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v3

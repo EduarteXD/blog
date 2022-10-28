@@ -25,7 +25,7 @@ jobs:
       - name: 📝 设定主题的分支
         uses: actions/checkout@v3
         with:
-          repository: Ben02/hexo-theme-Anatole
+          repository: EduarteXD/hexo-theme-Anatole
           ref: master
           path: themes/hexo-theme-Anatole
 

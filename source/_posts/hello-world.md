@@ -1,38 +1,16 @@
 ---
 title: Hello World
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+今天是2022年10月28日星期五
 
-## Quick Start
+☀️ 阳光还算明媚吧，温度也正合适，是能明显感受到凉意但又不需要添置衣物的感觉
 
-### Create a new post
+阳光洒肩头，仿若自由人；新鲜的空气和和煦的日光总能给人带来自在的感觉，希望日后能在这里记录更多生活中的点滴吧
 
-``` bash
-$ hexo new "My New Post"
-```
+虽然之前也写过[博客](https://oxdl.cn)，但是📝所写所记之物跟多偏向于平时学习工作之中所学到的一些内容，我并无意停下来不写那些东西，但同时也希望能找到一片地方来记录我的日常和生活中学到的一些小技巧吧，所以有了现在这个站点
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+任正非曾经公开地表示，要众人感受他的寒意；但我觉得日常生活中的温情才应该是值得我们去感受，去记住的东西
 
-### Run server
+世界很大，希望你我都不要迷失在茫茫人海之中
 
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+以上

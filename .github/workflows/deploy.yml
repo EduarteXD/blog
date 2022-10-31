@@ -29,13 +29,6 @@ jobs:
           ref: master
           path: themes/hexo-theme-Anatole
 
-      #- name: 设定部署的分支
-      #  uses: actions/checkout@v3
-      #  with:
-      #    repository: EduarteXD/eduartexd.github.io
-      #    ref: main
-      #    path: .deploy_git
-
       - name: ℹ️ 使用 Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v3
         with:

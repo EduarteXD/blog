@@ -26,7 +26,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: EduarteXD/hexo-theme-Anatole
-          ref: master
+          ref: main
           path: themes/hexo-theme-Anatole
 
       - name: ℹ️ 使用 Node.js ${{ matrix.node_version }}

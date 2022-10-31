@@ -3,4 +3,6 @@ title: 友情链接
 permalink: links/
 ---
 
-[我的另一个博客](https://oxdl.cn)
+> [某个不知名的小网站](https://oxdl.cn)
+> 
+> 记录一点日常学习中遇到的东西

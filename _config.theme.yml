@@ -13,9 +13,7 @@ github:
 facebook: 
 
 # Comment
-duoshuo: 
 disqus: 
-gentie: 
 # Valine comments https://valine.js.org
 valine:
   enable: false # if you want use valine, please set enable: true

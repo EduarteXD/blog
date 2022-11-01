@@ -191,7 +191,7 @@ import Foundation
   font-family: Chunkfive; src: url('Chunkfive.otf');
 }
 
-body, .usertext {
+body, .usertext, #id, *, [attr="value"] {
   color: #F0F0F0; background: #600;
   font-family: Chunkfive, sans;
 }
